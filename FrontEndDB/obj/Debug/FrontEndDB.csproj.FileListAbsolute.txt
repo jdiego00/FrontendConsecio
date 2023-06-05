@@ -12,3 +12,4 @@ C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.pdb
 C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.PL.FormularioConsecio.resources
 C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.PL.SinBorde.resources
 C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.PL.MenuPrincipal.resources
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.PL.MenuInicio.resources

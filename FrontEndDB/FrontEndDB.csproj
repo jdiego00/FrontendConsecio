@@ -60,6 +60,12 @@
     <Compile Include="PL\FormularioConsecio.Designer.cs">
       <DependentUpon>FormularioConsecio.cs</DependentUpon>
     </Compile>
+    <Compile Include="PL\MenuInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\MenuInicio.Designer.cs">
+      <DependentUpon>MenuInicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +85,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PL\FormularioConsecio.resx">
       <DependentUpon>FormularioConsecio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\MenuInicio.resx">
+      <DependentUpon>MenuInicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PL\MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>

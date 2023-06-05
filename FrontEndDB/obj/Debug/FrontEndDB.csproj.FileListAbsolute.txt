@@ -1,0 +1,14 @@
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.csproj.AssemblyReference.cache
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.csproj.SuggestedBindingRedirects.cache
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.Form1.resources
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.Properties.Resources.resources
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.csproj.GenerateResource.cache
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.csproj.CoreCompileInputs.cache
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\bin\Debug\FrontEndDB.exe.config
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\bin\Debug\FrontEndDB.exe
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\bin\Debug\FrontEndDB.pdb
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.exe
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.pdb
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.PL.FormularioConsecio.resources
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.PL.SinBorde.resources
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.PL.MenuPrincipal.resources

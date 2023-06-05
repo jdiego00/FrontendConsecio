@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEndDB", "FrontEndDB\FrontEndDB.csproj", "{6ABFB6B3-EE25-43D5-974C-1EF5F65563E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ABFB6B3-EE25-43D5-974C-1EF5F65563E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ABFB6B3-EE25-43D5-974C-1EF5F65563E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ABFB6B3-EE25-43D5-974C-1EF5F65563E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ABFB6B3-EE25-43D5-974C-1EF5F65563E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A99C338-2D5C-4A97-B49B-FAB4DEE1B67F}
+	EndGlobalSection
+EndGlobal

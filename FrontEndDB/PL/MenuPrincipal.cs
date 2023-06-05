@@ -31,5 +31,10 @@ namespace FrontEndDB.PL
         {
 
         }
+
+        private void MenuPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

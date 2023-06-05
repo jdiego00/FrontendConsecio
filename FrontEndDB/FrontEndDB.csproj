@@ -114,6 +114,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CONC.sql" />
+    <None Include="Resources\cars-the-walt-disney-company-lightning-mcqueen-logo-pixar-cars-88c934c826dd47c39e1cd659786dedbc.png" />
+    <None Include="Resources\asd.png" />
+    <None Include="Resources\carslogosinfondo.png" />
+    <None Include="Resources\cars logo.png" />
+    <None Include="Resources\matesinfondo.png" />
+    <None Include="Resources\mateAuriculares.png" />
     <None Include="Resources\matefondo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

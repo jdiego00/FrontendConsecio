@@ -63,6 +63,47 @@ namespace FrontEndDB.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap asd {
+            get {
+                object obj = ResourceManager.GetObject("asd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cars_logo {
+            get {
+                object obj = ResourceManager.GetObject("cars logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cars_the_walt_disney_company_lightning_mcqueen_logo_pixar_cars_88c934c826dd47c39e1cd659786dedbc {
+            get {
+                object obj = ResourceManager.GetObject("cars-the-walt-disney-company-lightning-mcqueen-logo-pixar-cars-88c934c826dd47c39e" +
+                        "1cd659786dedbc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap carslogosinfondo {
+            get {
+                object obj = ResourceManager.GetObject("carslogosinfondo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fondito_fachero {
             get {
                 object obj = ResourceManager.GetObject("fondito fachero", resourceCulture);
@@ -73,9 +114,29 @@ namespace FrontEndDB.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mateAuriculares {
+            get {
+                object obj = ResourceManager.GetObject("mateAuriculares", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap matefondo {
             get {
                 object obj = ResourceManager.GetObject("matefondo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap matesinfondo {
+            get {
+                object obj = ResourceManager.GetObject("matesinfondo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

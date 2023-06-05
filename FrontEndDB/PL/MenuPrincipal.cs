@@ -35,6 +35,7 @@ namespace FrontEndDB.PL
         private void button1_Click(object sender, EventArgs e)
         {
             AbrirFormHija(new MenuInicio());
+            pictureBox1.BringToFront();
         }
 
 
@@ -51,6 +52,25 @@ namespace FrontEndDB.PL
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AbrirFormHija(new MenuVenta());
+        }
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            AbrirFormHija(new MenuVenta());
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AbrirFormHija(new RegistroVenta());
+        }
+
+        private void button6_Click(object sender, EventArgs e)
         {
 
         }

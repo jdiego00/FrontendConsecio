@@ -72,6 +72,18 @@
     <Compile Include="PL\MenuPrincipal.Designer.cs">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="PL\MenuVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\MenuVenta.Designer.cs">
+      <DependentUpon>MenuVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\RegistroVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\RegistroVenta.Designer.cs">
+      <DependentUpon>RegistroVenta.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\SinBorde.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +103,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PL\MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\MenuVenta.resx">
+      <DependentUpon>MenuVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\RegistroVenta.resx">
+      <DependentUpon>RegistroVenta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PL\SinBorde.resx">
       <DependentUpon>SinBorde.cs</DependentUpon>

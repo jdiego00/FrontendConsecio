@@ -13,3 +13,5 @@ C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.PL.Formul
 C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.PL.SinBorde.resources
 C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.PL.MenuPrincipal.resources
 C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.PL.MenuInicio.resources
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.PL.MenuVenta.resources
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.PL.RegistroVenta.resources

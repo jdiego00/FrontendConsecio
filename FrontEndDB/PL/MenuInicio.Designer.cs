@@ -55,18 +55,20 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(17, 110);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(194, 53);
+            this.button1.Size = new System.Drawing.Size(75, 53);
             this.button1.TabIndex = 2;
             this.button1.Text = "Ventas";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(265, 52);
+            this.dataGridView1.Location = new System.Drawing.Point(118, 110);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(305, 344);
+            this.dataGridView1.Size = new System.Drawing.Size(452, 286);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // button2
             // 
@@ -76,10 +78,11 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Location = new System.Drawing.Point(17, 159);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(194, 53);
+            this.button2.Size = new System.Drawing.Size(75, 53);
             this.button2.TabIndex = 3;
             this.button2.Text = "Taller";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -88,10 +91,11 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Location = new System.Drawing.Point(17, 209);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(194, 53);
+            this.button3.Size = new System.Drawing.Size(75, 53);
             this.button3.TabIndex = 4;
             this.button3.Text = "AutoMoviles";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // pictureBox1
             // 

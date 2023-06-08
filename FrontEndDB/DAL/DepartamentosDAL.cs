@@ -19,5 +19,12 @@ namespace FrontEndDB.DAL
             return conn.EjecutarSentencia(sentencia);
         }
 
+        public DataSet MostrarDe(string DeDonde)
+        {
+            DeDonde = "SELECT * from " + DeDonde;
+            SqlCommand sentencia = new SqlCommand(DeDonde);
+            return conn.EjecutarSentencia(sentencia);
+        }
+
     }
 }

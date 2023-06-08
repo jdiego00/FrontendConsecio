@@ -12,7 +12,7 @@ namespace FrontEndDB
     public class Conexion
     {
         // string connString = "Data Source=v-w7-des;Initial Catalog=Exam2Verif;Integrated Security=True";
-        private String CadenaConexion = "Data Source = JUANDIEGO; Initial Catalog = Concesionario_final; Integrated Security = True";
+        private String CadenaConexion = "Data Source = JUANDIEGO; Initial Catalog = Concesionario_final1; Integrated Security = True";
         SqlConnection conn;
             public SqlConnection EstablecerConexion()
         {

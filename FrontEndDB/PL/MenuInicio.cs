@@ -14,9 +14,11 @@ namespace FrontEndDB.PL
     public partial class MenuInicio : Form
     {
         DepartamentosDAL oConsecionaria;
+       
         public MenuInicio()
         {
             oConsecionaria = new DepartamentosDAL();
+           
             InitializeComponent();
             
         }
@@ -29,6 +31,8 @@ namespace FrontEndDB.PL
         private void button1_Click(object sender, EventArgs e)
         {
             dataGridView1.DataSource = oConsecionaria.MostrarDe("Venta").Tables[0];
+            
+            
         }
 
         private void button2_Click(object sender, EventArgs e)

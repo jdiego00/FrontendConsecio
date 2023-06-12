@@ -103,9 +103,12 @@ namespace FrontEndDB.PL
                 }
             }
             string pkR = ArrayToString(pkRepuesto);
-            conn.InsertarMecanico("InsertarMecanicos",textCI.Text,listCIMec,manodeobra);
-            conn.InsertarRepuestos("InsertarRepuestos",textCI.Text, pkR);
-
+            
+            
+            if (conn.InsertarMecanico("InsertarMecanicos", textCI.Text, listCIMec, manodeobra) && conn.InsertarRepuestos("InsertarRepuestos", textCI.Text, pkR))
+            {
+                MessageBox.Show("Agregado Correctamente");
+            }
         }
 
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -121,7 +124,11 @@ namespace FrontEndDB.PL
         private void button2_Click(object sender, EventArgs e)
         {
             Conexion con = new Conexion();
-            con.EliminarMec("EliminarMecanicos",textCI.Text,textBox1.Text);
+            if(con.EliminarMec("EliminarMecanicos", textCI.Text, textBox1.Text))
+            {
+                MessageBox.Show("Eliminado Correctamente");
+            }
+            
         }
     }
 }

@@ -32,11 +32,22 @@ namespace FrontEndDB.PL
         {
 
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
-           oClientesDAL.Agregar(RecuperarInformacion());
+            if (oClientesDAL.Agregar(RecuperarInformacion()))
+            {
+                MessageBox.Show("Cliente Agregado Correctamente");
+            }
         }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Conexion con = new Conexion();
+            if(con.ModificarClientes("EditarCliente", textCI.Text, textNombre.Text, textApaterno.Text, textAmaterno.Text, textDireccion.Text, textTelefono.Text))
+            {
+                MessageBox.Show("Cliente Modificado Correctamente");
+            }
+        }
+        
         private ClientesBLL RecuperarInformacion()
         {
             ClientesBLL oCliente = new ClientesBLL();
@@ -65,10 +76,5 @@ namespace FrontEndDB.PL
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Conexion con = new Conexion();
-            con.ModificarClientes("EditarCliente", textCI.Text, textNombre.Text, textApaterno.Text, textAmaterno.Text, textDireccion.Text, textTelefono.Text);
-        }
     }
 }

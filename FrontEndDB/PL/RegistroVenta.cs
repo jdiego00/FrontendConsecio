@@ -67,7 +67,10 @@ namespace FrontEndDB.PL
                     pkEquipo.Add(objDep.MostrarDe("Equipamiento").Tables[0].Rows[i][0].ToString());
                 }
             }
-            oVentasDAL.Agregar(RecuperarInformacion());
+            if (oVentasDAL.Agregar(RecuperarInformacion()))
+            {
+                MessageBox.Show("Agregado Correctamente");
+            }
             
         }
 

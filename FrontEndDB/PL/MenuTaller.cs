@@ -39,7 +39,10 @@ namespace FrontEndDB.PL
         private void button1_Click(object sender, EventArgs e)
         {
             Conexion conn = new Conexion();
-            conn.InsertarTaller("InsercionTalleres", textFecha.Text, textCiCliente.Text, textAuto.Text);
+            if(conn.InsertarTaller("InsercionTalleres", textFecha.Text, textCiCliente.Text, textAuto.Text))
+            {
+                MessageBox.Show("Agregado Correctamente");
+            }
 
         }
     }

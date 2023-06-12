@@ -88,14 +88,23 @@
   <ItemGroup>
     <Compile Include="BLL\ClientesBLL.cs" />
     <Compile Include="BLL\ConcesionarioBLL.cs" />
+    <Compile Include="BLL\EquipoBLL.cs" />
+    <Compile Include="BLL\VentasBLL.cs" />
     <Compile Include="DAL\ClientesDAL.cs" />
     <Compile Include="DAL\Conexion.cs" />
     <Compile Include="DAL\DepartamentosDAL.cs" />
+    <Compile Include="DAL\VentasDAL.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Factura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Factura.Designer.cs">
+      <DependentUpon>Factura.cs</DependentUpon>
     </Compile>
     <Compile Include="PL\FormularioConsecio.cs">
       <SubType>Form</SubType>
@@ -109,11 +118,23 @@
     <Compile Include="PL\MenuInicio.Designer.cs">
       <DependentUpon>MenuInicio.cs</DependentUpon>
     </Compile>
+    <Compile Include="PL\MenuMecanicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\MenuMecanicos.Designer.cs">
+      <DependentUpon>MenuMecanicos.cs</DependentUpon>
+    </Compile>
     <Compile Include="PL\MenuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PL\MenuPrincipal.Designer.cs">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\MenuTaller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\MenuTaller.Designer.cs">
+      <DependentUpon>MenuTaller.cs</DependentUpon>
     </Compile>
     <Compile Include="PL\MenuVenta.cs">
       <SubType>Form</SubType>
@@ -138,14 +159,26 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PL\Factura.dje.resx">
+      <DependentUpon>Factura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Factura.resx">
+      <DependentUpon>Factura.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PL\FormularioConsecio.resx">
       <DependentUpon>FormularioConsecio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PL\MenuInicio.resx">
       <DependentUpon>MenuInicio.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PL\MenuMecanicos.resx">
+      <DependentUpon>MenuMecanicos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PL\MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\MenuTaller.resx">
+      <DependentUpon>MenuTaller.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PL\MenuVenta.resx">
       <DependentUpon>MenuVenta.cs</DependentUpon>

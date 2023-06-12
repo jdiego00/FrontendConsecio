@@ -79,8 +79,79 @@ namespace FrontEndDB
                 MessageBox.Show(ex.Message);
                 return false;
             }
+        }
+        public bool InsertarVentas(string strComando, string p1, string p2, string p3, string p4, string p5, string p6)
+        {
+            try
+            {
+                SqlCommand Comando = new SqlCommand();
+                Comando.CommandText = strComando;
+                Comando.Connection = EstablecerConexion();
+                Comando.Connection.Open();
+                Comando.CommandType = CommandType.StoredProcedure;
+                Comando.Parameters.AddWithValue("@PNumChaciz",p1);
+                Comando.Parameters.AddWithValue("@PCI", p2);
+                Comando.Parameters.AddWithValue("@PModoPago", p3);
+                Comando.Parameters.AddWithValue("@PFechaEntrega", p4);
+                Comando.Parameters.AddWithValue("@PCIcli", p5);
+                Comando.Parameters.AddWithValue("@CodEquipList", p6);
+                Comando.ExecuteNonQuery();
+                Comando.Connection.Close();
 
+                return true;
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+        }
+        public bool InsertarTaller(string strComando, string p1, string p2, string p3)
+        {
+            try
+            {
+                SqlCommand Comando = new SqlCommand();
+                Comando.CommandText = strComando;
+                Comando.Connection = EstablecerConexion();
+                Comando.Connection.Open();
+                Comando.CommandType = CommandType.StoredProcedure;
+                Comando.Parameters.AddWithValue("@PFechaSalida", p1);
+                Comando.Parameters.AddWithValue("@PCI", p2);
+                Comando.Parameters.AddWithValue("@PNumChacizExt", p3);
+                Comando.ExecuteNonQuery();
+                Comando.Connection.Close();
 
+                return true;
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+        }
+        public bool InsertarMecanico(string strComando, string p1, string p2, string p3)
+        {
+            try
+            {
+                SqlCommand Comando = new SqlCommand();
+                Comando.CommandText = strComando;
+                Comando.Connection = EstablecerConexion();
+                Comando.Connection.Open();
+                Comando.CommandType = CommandType.StoredProcedure;
+                Comando.Parameters.AddWithValue("@CodReparacion", p1);
+                Comando.Parameters.AddWithValue("@MecanicoList", p2);
+                Comando.Parameters.AddWithValue("@ManoDeObraList", p3);
+                Comando.ExecuteNonQuery();
+                Comando.Connection.Close();
+
+                return true;
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
         }
     }
+
 }

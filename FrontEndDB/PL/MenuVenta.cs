@@ -53,5 +53,10 @@ namespace FrontEndDB.PL
         {
 
         }
+
+        private void textDireccion_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

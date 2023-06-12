@@ -25,6 +25,17 @@ namespace FrontEndDB.DAL
             SqlCommand sentencia = new SqlCommand(DeDonde);
             return conn.EjecutarSentencia(sentencia);
         }
+        public DataSet MostrarDeAutoExt()
+        {
+            SqlCommand sentencia = new SqlCommand("SELECT C.CI, C.Nombre, AE.NumChacizExt, AE.Color, AE.Modelo FROM AutoExterno AE JOIN Clientes C ON AE.CI = C.CI;");
+            return conn.EjecutarSentencia(sentencia);
+        }
+        public DataSet MostrarReg()
+        {
+            SqlCommand sentencia = new SqlCommand("SELECT RT.CodReparacion, C.Nombre, AE.NumChacizExt, AE.Modelo FROM RegistroTaller RT JOIN Clientes C ON RT.CI = C.CI JOIN AutoExterno AE ON RT.NumChacizExt = AE.NumChacizExt;");
+            return conn.EjecutarSentencia(sentencia);
+        }
+
 
     }
 }

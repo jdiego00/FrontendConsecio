@@ -41,3 +41,9 @@ C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\bin\Debug\System.Numerics.Vect
 C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.csproj.CopyComplete
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.PL.MenuTaller.resources
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.PL.MenuMecanicos.resources
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\bin\Debug\dje\FrontEndDB.resources.dll
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.PL.Factura.resources
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\FrontEndDB.PL.Factura.dje.resources
+C:\Users\jdcha\source\repos\FrontEndDB\FrontEndDB\obj\Debug\dje\FrontEndDB.resources.dll

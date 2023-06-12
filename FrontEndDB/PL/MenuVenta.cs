@@ -18,9 +18,10 @@ namespace FrontEndDB.PL
         public MenuVenta()
         {
             oClientesDAL = new ClientesDAL();
+            DepartamentosDAL odep = new DepartamentosDAL();
             InitializeComponent();
-            
-        }
+            dataGridView1.DataSource = odep.MostrarDe("Clientes").Tables[0];
+        }   
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
@@ -57,6 +58,17 @@ namespace FrontEndDB.PL
         private void textDireccion_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Conexion con = new Conexion();
+            con.ModificarClientes("EditarCliente", textCI.Text, textNombre.Text, textApaterno.Text, textAmaterno.Text, textDireccion.Text, textTelefono.Text);
         }
     }
 }

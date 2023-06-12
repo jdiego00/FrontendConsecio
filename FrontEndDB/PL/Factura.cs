@@ -16,16 +16,35 @@ namespace FrontEndDB.PL
         public Factura()
         {
             InitializeComponent();
-            DepartamentosDAL objDep = new DepartamentosDAL();;
-            for (int i = 0; i < objDep.MostrarDe("Repuestos").Tables[0].Rows.Count; i++)
-            {
-                checkedListBox1.Items.Add(objDep.MostrarDe("Repuestos").Tables[0].Rows[i][1]);
-            }
+            DepartamentosDAL oConcesionaria = new DepartamentosDAL();
+            dataGridView2.DataSource = oConcesionaria.MostrarReg().Tables[0];
         }
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Factura_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Conexion conn = new Conexion();
+            MessageBox.Show(conn.InsertarFactura("Factura",textCI.Text));
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Conexion conn = new Conexion();
+            MessageBox.Show(conn.Reporte("RepTaller", textBox1.Text, textBox2.Text));
         }
     }
 }

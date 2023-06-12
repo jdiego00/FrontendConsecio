@@ -84,5 +84,10 @@ namespace FrontEndDB.PL
         {
             AbrirFormHija(new MenuMecanicos());
         }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            AbrirFormHija(new Factura());
+        }
     }
 }

@@ -44,5 +44,10 @@ namespace FrontEndDB.PL
         {
             dataGridView1.DataSource = oConsecionaria.MostrarDe("Automoviles").Tables[0];
         }
+
+        private void MenuInicio_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

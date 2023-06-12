@@ -19,7 +19,11 @@ namespace FrontEndDB.PL
         public RegistroVenta()
         {
             oVentasDAL= new VentasDAL();
+            DepartamentosDAL oDep = new DepartamentosDAL();
             InitializeComponent();
+            dataGridView1.DataSource= oDep.MostrarCli().Tables[0];
+            dataGridView2.DataSource = oDep.MostrarVEND().Tables[0];
+
 
         }
 

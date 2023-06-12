@@ -135,13 +135,14 @@
             this.button6.TabIndex = 9;
             this.button6.Text = "Facturacion";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::FrontEndDB.Properties.Resources.cars_the_walt_disney_company_lightning_mcqueen_logo_pixar_cars_88c934c826dd47c39e1cd659786dedbc;
-            this.pictureBox2.Location = new System.Drawing.Point(-1, 12);
+            this.pictureBox2.Image = global::FrontEndDB.Properties.Resources.Screenshot_2023_06_12_165413;
+            this.pictureBox2.Location = new System.Drawing.Point(-1, -10);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(194, 134);
+            this.pictureBox2.Size = new System.Drawing.Size(200, 165);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;
@@ -151,9 +152,9 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.pictureBox1.Image = global::FrontEndDB.Properties.Resources.matesinfondo;
-            this.pictureBox1.Location = new System.Drawing.Point(342, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(6, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(231, 134);
+            this.pictureBox1.Size = new System.Drawing.Size(592, 417);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -189,12 +190,12 @@
         #endregion
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

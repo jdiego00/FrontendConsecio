@@ -152,6 +152,135 @@ namespace FrontEndDB
                 return false;
             }
         }
+        public bool InsertarRepuestos(string strComando, string p1, string p2)
+        {
+            try
+            {
+                SqlCommand Comando = new SqlCommand();
+                Comando.CommandText = strComando;
+                Comando.Connection = EstablecerConexion();
+                Comando.Connection.Open();
+                Comando.CommandType = CommandType.StoredProcedure;
+                Comando.Parameters.AddWithValue("@RCodReparacion", p1);
+                Comando.Parameters.AddWithValue("@RCodRepuestoList", p2);
+                Comando.ExecuteNonQuery();
+                Comando.Connection.Close();
+
+                return true;
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+        }
+        public string InsertarFactura(string strComando, string p1)
+        {
+            try
+            {
+                SqlCommand Comando = new SqlCommand();
+                Comando.CommandText = strComando;
+                Comando.Connection = EstablecerConexion();
+                Comando.Connection.Open();
+                Comando.CommandType = CommandType.StoredProcedure;
+                Comando.Parameters.AddWithValue("@FcodReparacion", p1);
+                string result = "";
+                using (SqlDataReader reader = Comando.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        // Retrieve the string value returned by the stored procedure
+                        result = reader.GetString(0);
+                        //Console.WriteLine("Result: " + result);
+                    }
+                }
+
+                return result;
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+                return "ERROR";
+            }
+        }
+        public string Reporte(string strComando, string p1, string p2)
+        {
+            try
+            {
+                SqlCommand Comando = new SqlCommand();
+                Comando.CommandText = strComando;
+                Comando.Connection = EstablecerConexion();
+                Comando.Connection.Open();
+                Comando.CommandType = CommandType.StoredProcedure;
+                Comando.Parameters.AddWithValue("@RFechaI", p1);
+                Comando.Parameters.AddWithValue("@RFechaF", p2);
+                string result = "";
+                using (SqlDataReader reader = Comando.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        // Retrieve the string value returned by the stored procedure
+                        result = reader.GetString(0);
+                        //Console.WriteLine("Result: " + result);
+                    }
+                }
+
+                return result;
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+                return "ERROR";
+            }
+        }
+        public bool ModificarClientes(string strComando, string p1, string p2, string p3, string p4, string p5, string p6)
+        {
+            try
+            {
+                SqlCommand Comando = new SqlCommand();
+                Comando.CommandText = strComando;
+                Comando.Connection = EstablecerConexion();
+                Comando.Connection.Open();
+                Comando.CommandType = CommandType.StoredProcedure;
+                Comando.Parameters.AddWithValue("@CI", p1);
+                Comando.Parameters.AddWithValue("@Nombre", p2);
+                Comando.Parameters.AddWithValue("@ApellidoPaterno", p3);
+                Comando.Parameters.AddWithValue("@ApellidoMaterno", p4);
+                Comando.Parameters.AddWithValue("@Direccion", p5);
+                Comando.Parameters.AddWithValue("@Telefono", p6);
+                Comando.ExecuteNonQuery();
+                Comando.Connection.Close();
+
+                return true;
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+        }
+        public bool EliminarMec(string strComando, string p1, string p2)
+        {
+            try
+            {
+                SqlCommand Comando = new SqlCommand();
+                Comando.CommandText = strComando;
+                Comando.Connection = EstablecerConexion();
+                Comando.Connection.Open();
+                Comando.CommandType = CommandType.StoredProcedure;
+                Comando.Parameters.AddWithValue("@CodReparacion", p1);
+                Comando.Parameters.AddWithValue("@CIMecanico", p2);
+                Comando.ExecuteNonQuery();
+                Comando.Connection.Close();
+
+                return true;
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
+        }
     }
 
 }

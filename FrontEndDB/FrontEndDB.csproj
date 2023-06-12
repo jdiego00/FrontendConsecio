@@ -94,23 +94,11 @@
     <Compile Include="DAL\Conexion.cs" />
     <Compile Include="DAL\DepartamentosDAL.cs" />
     <Compile Include="DAL\VentasDAL.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="PL\Factura.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PL\Factura.Designer.cs">
       <DependentUpon>Factura.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PL\FormularioConsecio.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PL\FormularioConsecio.Designer.cs">
-      <DependentUpon>FormularioConsecio.cs</DependentUpon>
     </Compile>
     <Compile Include="PL\MenuInicio.cs">
       <SubType>Form</SubType>
@@ -156,17 +144,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="PL\Factura.dje.resx">
       <DependentUpon>Factura.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PL\Factura.resx">
       <DependentUpon>Factura.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PL\FormularioConsecio.resx">
-      <DependentUpon>FormularioConsecio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PL\MenuInicio.resx">
       <DependentUpon>MenuInicio.cs</DependentUpon>
@@ -218,6 +200,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CONC.sql" />
+    <None Include="Resources\59db69d33752880e93e16efc.png" />
+    <None Include="Resources\Screenshot 2023-06-12 165413.png" />
     <None Include="Resources\cars-the-walt-disney-company-lightning-mcqueen-logo-pixar-cars-88c934c826dd47c39e1cd659786dedbc.png" />
     <None Include="Resources\asd.png" />
     <None Include="Resources\carslogosinfondo.png" />

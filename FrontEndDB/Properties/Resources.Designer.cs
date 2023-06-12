@@ -63,6 +63,16 @@ namespace FrontEndDB.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _59db69d33752880e93e16efc {
+            get {
+                object obj = ResourceManager.GetObject("59db69d33752880e93e16efc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap asd {
             get {
                 object obj = ResourceManager.GetObject("asd", resourceCulture);
@@ -137,6 +147,16 @@ namespace FrontEndDB.Properties {
         internal static System.Drawing.Bitmap matesinfondo {
             get {
                 object obj = ResourceManager.GetObject("matesinfondo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2023_06_12_165413 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2023-06-12 165413", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
